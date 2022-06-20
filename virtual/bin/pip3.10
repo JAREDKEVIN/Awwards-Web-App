@@ -1,4 +1,4 @@
-#!/home/moringa/Desktop/projects/python/DJANGO/Awwards/virtual/bin/python3
+#!/home/moringa/Desktop/projects/python/DJANGO/Awwards/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
