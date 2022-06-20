@@ -15,7 +15,7 @@ The application will allow a user to post a project he/she has created and get i
 
 1.Landing Page
 
-![Screenshot 1](screenshots/Screenshot 1.png)
+![Screenshot 1](https://github.com/JAREDKEVIN/Awwards-Web-App/blob/9eabd0c68f91dbdeac5be7d92b7c25131567f374/screenshots/Screenshot%201.png)
 
 
 2.Login Into Your Account
