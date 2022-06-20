@@ -47,3 +47,11 @@ def search_results(request):
 def profile(request):
     projects = request.user.profile.projects.all()
     return render(request, 'profile.html', {"projects":projects})
+
+
+class ListProfileView(generics.ListAPIView):
+    """
+    Provides a get method handler.
+    """
+    queryset = Profile.objects.all()
+    serializer_class = ProfileSerializer
