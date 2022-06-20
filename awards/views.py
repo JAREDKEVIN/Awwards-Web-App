@@ -42,3 +42,8 @@ def search_results(request):
     else:
         message = "You haven't searched for any projects yet"
     return render(request, 'search.html', {'message': message})
+
+@login_required
+def profile(request):
+    projects = request.user.profile.projects.all()
+    return render(request, 'profile.html', {"projects":projects})
