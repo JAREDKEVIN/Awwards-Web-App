@@ -26,3 +26,9 @@ def project(request,project_id):
     return render(request,"project.html", {"project":project})
 
 
+class ListProjectView(generics.ListAPIView):
+    """
+    Provides a get method handler.
+    """
+    queryset = Project.objects.all()
+    serializer_class = ProjectSerializer
