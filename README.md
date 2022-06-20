@@ -35,12 +35,12 @@ https://awwardskipkemoi.herokuapp.com/
 Create and activate Virtual env then install pip To install django -pip install django LTS Have basic git knowledge
 
 '''
-python3.9 -m venv --without-pip virtual
-source virtual/bin/activate
-pip install django
-pip install -r requirements.txt
-curl https://bootstrap.pypa.io/get-pip.py | python
-python manage.py runserver
+* python3.9 -m venv --without-pip virtual
+* source virtual/bin/activate
+* pip install django
+* pip install -r requirements.txt
+* curl https://bootstrap.pypa.io/get-pip.py | python
+* python manage.py runserver
 
 '''
 
