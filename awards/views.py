@@ -12,6 +12,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
+# def welcome(request):
+#     return render(request, 'welcome.html')
 
 def home(request):
     projects = Project.objects.all()
@@ -25,13 +27,13 @@ def project(request,project_id):
         raise Http404()
     return render(request,"project.html", {"project":project})
 
-
 class ListProjectView(generics.ListAPIView):
     """
     Provides a get method handler.
     """
     queryset = Project.objects.all()
     serializer_class = ProjectSerializer
+
 
 def search_results(request):
     if 'project' in request.GET and request.GET["project"]:
@@ -48,13 +50,14 @@ def profile(request):
     projects = request.user.profile.projects.all()
     return render(request, 'profile.html', {"projects":projects})
 
-
 class ListProfileView(generics.ListAPIView):
     """
     Provides a get method handler.
     """
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
+
+
 
 @login_required
 def update(request):
@@ -75,6 +78,7 @@ def update(request):
         'p_form': p_form
     }
     return render(request, 'update.html', context)
+
 
 @login_required
 def upload_project(request):
@@ -101,7 +105,7 @@ def register(request):
     else:
         form = UserRegisterForm()
     return render(request, 'registration/register.html', {'form':form})
-
+    
 @login_required
 def rate(request, project_id):
     project = Project.objects.get(id=project_id)
@@ -117,7 +121,3 @@ def rate(request, project_id):
     else:
         form = RateForm()
     return render(request, 'rate.html', locals())
-
-
-
-
