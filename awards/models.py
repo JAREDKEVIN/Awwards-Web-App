@@ -32,7 +32,7 @@ def __str__(self):
 def no_of_ratings(self):
         ratings = Rating.objects.filter(project=self)
         return len(ratings)
-        
+
 
 def average_ratings(self):
         sum = 0
@@ -43,3 +43,8 @@ def average_ratings(self):
             return sum/len(ratings)
         else:
             return 0
+
+@classmethod
+def search_project(cls, search_term):
+        project = cls.objects.filter(title__icontains=search_term)
+        return project
