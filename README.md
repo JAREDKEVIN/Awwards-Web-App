@@ -12,32 +12,20 @@ The application will allow a user to post a project he/she has created and get i
 4.Run project using _python3 manage.py runserver_
 
 ## User Experience
-1.Register If Your Are A New User.
 
-![Screenshot 1](https://user-images.githubusercontent.com/93251478/162627863-13396914-51d8-45fb-ad85-468706b57e32.png)
+1.Landing Page
+
+![Screenshot 1](screenshots/Screenshot 1.png)
 
 
 2.Login Into Your Account
 
-![Screenshot 2](https://user-images.githubusercontent.com/93251478/162627922-6c220896-7a65-42ef-ab2e-71aa38105066.png)
+![Screenshot 2](screenshots/Screenshot from 2.png)
 
 
-3.Upload Your Project
+5.Sign Up
 
-![Screenshot 3](https://user-images.githubusercontent.com/93251478/162628004-6ef6a199-9b22-4fff-8d21-42173c8a741a.png)
-
-
-4.This is the Home Landing Page.
-
-![Screenshot 4](https://user-images.githubusercontent.com/93251478/162628491-eec9d3a0-fa09-46a1-906d-8fdd89b62f7c.png)
-
-
-5.This is the Project Landing Page.
-
-![Screenshot 5](https://user-images.githubusercontent.com/93251478/162628472-3732aebd-9162-4482-88fa-866169be3000.png)
-
-
-
+![Screenshot 3](screenshots/Screenshot from 3.png)
 
 
 ## Live Link
