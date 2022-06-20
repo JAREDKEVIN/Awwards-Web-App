@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'awards',
     'rest_framework',
-    'bootstrap4'
+    'bootstrap4',
+    'crispy_forms',
+   
     
 
 
