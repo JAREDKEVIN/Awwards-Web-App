@@ -29,7 +29,7 @@ The application will allow a user to post a project he/she has created and get i
 
 
 ## Live Link
-https://github.com/JAREDKEVIN/Awwards-Web-App.git
+https://awwardskipkemoi.herokuapp.com/
 
 ## Prerequisities
 Create and activate Virtual env then install pip To install django -pip install django LTS Have basic git knowledge
