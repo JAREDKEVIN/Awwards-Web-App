@@ -23,7 +23,7 @@ The application will allow a user to post a project he/she has created and get i
 ![Screenshot 2](screenshots/Screenshot from 2.png)
 
 
-5.Sign Up
+3.Sign Up
 
 ![Screenshot 3](screenshots/Screenshot from 3.png)
 
