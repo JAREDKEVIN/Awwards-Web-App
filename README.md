@@ -20,12 +20,12 @@ The application will allow a user to post a project he/she has created and get i
 
 2.Login Into Your Account
 
-![Screenshot 2](screenshots/Screenshot from 2.png)
+![Screenshot 2](https://github.com/JAREDKEVIN/Awwards-Web-App/blob/baf97e9aed6a5b4a3d4431210631af6a79e6972d/screenshots/Screenshot%20from%202.png)
 
 
 3.Sign Up
 
-![Screenshot 3](screenshots/Screenshot from 3.png)
+![Screenshot 3](https://github.com/JAREDKEVIN/Awwards-Web-App/blob/baf97e9aed6a5b4a3d4431210631af6a79e6972d/screenshots/Screenshot%20from%203.png)
 
 
 ## Live Link
