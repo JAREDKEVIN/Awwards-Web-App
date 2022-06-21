@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+from pathlib import Path
+import os
+import dj_database_url
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'bootstrap4',
     'crispy_forms',
+    'cloudinary',
    
     
 
@@ -48,6 +55,12 @@ INSTALLED_APPS = [
  #APPS   
    
 ]
+
+cloudinary.config(
+  cloud_name = "moringa-kipkemoi",
+  api_key = "583484295129265",
+  api_secret = "iUp89baICJSY--PpsiI7aOIuGOg",
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
